@@ -4,10 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Блочная верстка</title>
 	<link rel="stylesheet" href="main.css">
+	<style>
+		table, th, td {
+		  padding: 5px;
+		}
+		table {
+		  border-spacing: 0px;
+		}
+	</style>
 </head>
 <body>
 	<div class="header">
-		<h1>Lorem ipsum</h1>
+		<table style="width:140%">
+			<tr>
+				<td><h1>Lorem ipsum</h1></td>
+				<td>Lorem ipsum</td>
+			</tr>
+		</table>
 	</div>
 	<div class="sidebar">
 			<p><a href="index.html">Page 1</a></p>
@@ -35,7 +48,12 @@
 		</map>
 	</div>
 	<div class="footer">
-		<h1>Lorem ipsum</h1>
-	</div>
+		<table style="width:270%">
+			<tr>
+				<td>Lorem ipsum</td>
+				<td><h1>Lorem ipsum</h1></td>
+			</tr>
+		</table>
+	</div>	
 </body>
 </html>

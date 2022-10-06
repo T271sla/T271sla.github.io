@@ -1,6 +1,5 @@
 body {
 	background-image: url('back.png');
-	max-width: 960px;
 	margin: 0 auto; 
 }
 div {
@@ -10,15 +9,12 @@ h4 {
 	text-align: center;
 }
 .header {
-	-webkit-box-shadow: 0 0 10px #ea3939;
-	box-shadow: 0 0 10px #ea3939;
 	border-radius: 10px 10px 0 0;
 	margin-top: 20px;
 	background: skyblue;
 	min-height: 170px;
 	max-height: 170px;
 	line-height: 130px;
-	text-align: left;
 	margin-bottom: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
@@ -27,8 +23,10 @@ h4 {
 	background: rgb(240, 209, 174);
 	float: left;
 	margin-right: 10px;
+	margin-bottom: 10px;
 	min-height: 545px;
 	min-width: 250px;
+	max-width: 250px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 }
@@ -57,8 +55,8 @@ h4 {
 	background: lightgreen;
 	min-height: 30px;
 	max-height: 30px;
-	max-width: 37%;
-	margin-left: 30%;
+	max-width: 1300px;
+	margin-left: 15%;
 	margin-bottom: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
@@ -67,21 +65,20 @@ h4 {
 	background: lightgrey;
 	min-height: 495px;
 	max-height: 495px;
-	max-width: 37%;
-	margin-left: 30%;
+	max-width: 1300px;
+	margin-left: 15%;
 	margin-bottom: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 }
 .footer {
 	background: skyblue;
+	margin-top: 10px;
+	clear: both;
 	min-height: 170px;
 	line-height: 130px;
-	text-align: right;
+	text-align: left;
 	border-radius: 0 0 10px 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-}
-clearfix {
-	clear: both;
 }
