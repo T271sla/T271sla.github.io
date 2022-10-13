@@ -3,10 +3,11 @@ body {
 	margin: 0 auto; 
 }
 div {
-	padding: 5px 15px;
+	padding: 0px;
 }
 h4 {
 	text-align: center;
+	color: black;
 }
 .header {
 	border-radius: 10px 10px 0 0;
@@ -19,58 +20,58 @@ h4 {
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 }
-.sidebar {
+.container { 
+	display: flex;
+	justify-content: center;
+	}
+  .black {
+	background: black;
+	color:black;
+	display: flex;
+	flex-direction: column;
+	min-width: 1300px;
+	max-width: 1300px;
+  }
+  .black2 {
+	background: black;
+	display: flex;
+	flex-direction: column;
+	min-width: 340px;
+	max-width: 340px;
+  }
+  .green {
+	background: lightgreen;
+	min-height: 40px;
+	max-height: 40px;
+    padding: 10px;
+  }
+  .green2 {
+	background: lightgreen;
+	max-height: 40px;
+	min-height: 40px;
+    padding: 10px;
+  }
+  .gray{
+	background: lightgray;
+	min-height: 495px;
+    padding: 10px;
+  }
+  .yellow {
 	background: rgb(240, 209, 174);
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
 	min-height: 545px;
-	min-width: 250px;
-	max-width: 250px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-}
-.sidebar1 {
+	min-width: 230px;
+	max-width: 230px;
+    padding: 10px;
+  }
+  .yellow2 {
 	background: rgb(240, 209, 174);
-	float: right;
-	margin-left: 10px;
 	min-height: 495px;
-	min-width: 250px;
-	margin-bottom: 10px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-}
-.sidebar2 {
-	background: lightgreen;
-	float: right;
-	margin-left: 50px;
-	min-height: 30px;
-	max-height: 30px;
-	min-width: 250px;
-	clear: right;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-}
-.container {
-	background: lightgreen;
-	min-height: 30px;
-	max-height: 30px;
-	max-width: 1300px;
-	margin-left: 15%;
-	margin-bottom: 10px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-}
-.container_1 {
-	background: lightgrey;
-	min-height: 495px;
-	max-height: 495px;
-	max-width: 1300px;
-	margin-left: 15%;
-	margin-bottom: 10px;
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
-}
+    padding: 10px;
+  }
+  .container div {
+	font-size: 16px;
+	flex: 1;
+  }
 .footer {
 	background: skyblue;
 	margin-top: 10px;
