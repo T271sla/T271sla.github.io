@@ -19,18 +19,19 @@ h4 {
 	min-width: 100%;
 	max-width: 100%;
 	line-height: 130px;
-	margin-bottom: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
 }
 .container { 
 	display: flex;
 	justify-content: center;
+	clear: both;
 	}
   .black {
 	background: black;
 	color:black;
 	display: flex;
+	clear: both;
 	flex-direction: column;
 	min-width: 68%;
 	max-width: 68%;
@@ -38,29 +39,34 @@ h4 {
   .black2 {
 	background: black;
 	display: flex;
+	clear: both;
 	flex-direction: column;
 	min-width: 15%;
 	max-width: 15%;
   }
   .green {
 	background: lightgreen;
+	clear: both;
 	min-height: 40px;
 	max-height: 40px;
     padding: 10px;
   }
   .green2 {
 	background: lightgreen;
+	clear: both;
 	max-height: 40px;
 	min-height: 40px;
     padding: 10px;
   }
   .gray{
 	background: lightgray;
+	clear: both;
 	min-height: 495px;
     padding: 10px;
   }
   .yellow {
 	background: rgb(240, 209, 174);
+	clear: both;
 	min-height: 545px;
 	min-width: 15%;
 	max-width: 15%;
@@ -68,10 +74,12 @@ h4 {
   }
   .yellow2 {
 	background: rgb(240, 209, 174);
+	clear: both;
 	min-height: 495px;
     padding: 10px;
   }
   .container div {
+	clear: both;
 	font-size: 16px;
 	flex: 1;
   }
