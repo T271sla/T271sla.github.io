@@ -1,6 +1,7 @@
 body {
 	background-image: url('back.png');
 	margin: 0 auto; 
+	max-width: 100%;
 }
 div {
 	padding: 0px;
@@ -13,8 +14,10 @@ h4 {
 	border-radius: 10px 10px 0 0;
 	margin-top: 20px;
 	background: skyblue;
-	min-height: 170px;
-	max-height: 170px;
+	min-height: 177px;
+	max-height: 177px;
+	min-width: 100%;
+	max-width: 100%;
 	line-height: 130px;
 	margin-bottom: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
@@ -77,6 +80,8 @@ h4 {
 	margin-top: 10px;
 	clear: both;
 	min-height: 170px;
+	min-width: 100%;
+	max-width: 100%;
 	line-height: 130px;
 	text-align: left;
 	border-radius: 0 0 10px 10px;
