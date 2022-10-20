@@ -29,15 +29,15 @@ h4 {
 	color:black;
 	display: flex;
 	flex-direction: column;
-	min-width: 1300px;
-	max-width: 1300px;
+	min-width: 68%;
+	max-width: 68%;
   }
   .black2 {
 	background: black;
 	display: flex;
 	flex-direction: column;
-	min-width: 340px;
-	max-width: 340px;
+	min-width: 15%;
+	max-width: 15%;
   }
   .green {
 	background: lightgreen;
@@ -59,8 +59,8 @@ h4 {
   .yellow {
 	background: rgb(240, 209, 174);
 	min-height: 545px;
-	min-width: 230px;
-	max-width: 230px;
+	min-width: 15%;
+	max-width: 15%;
     padding: 10px;
   }
   .yellow2 {
