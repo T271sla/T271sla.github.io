@@ -1,0 +1,109 @@
+body {
+	background-image: url('back.png');
+	margin: 0 auto; 
+	max-width: 100%;
+}
+div {
+	padding: 0px;
+}
+h4 {
+	text-align: center;
+	color: black;
+}
+.header {
+	border-radius: 10px 10px 0 0;
+	margin-top: 20px;
+	background: skyblue;
+	min-height: 177px;
+	max-height: 177px;
+	min-width: 100%;
+	max-width: 100%;
+	line-height: 130px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+}
+.leftstr, .rightstr {
+	float: left;
+	width: 49%;
+}
+.rightstr {
+	text-align: right;
+	margin-top: 1.5%;
+}
+.leftstr{
+	padding-left: 1%;
+}
+.leftstr1, .rightstr1 {
+	float: left;
+	width: 49%;
+}
+.leftstr1{
+	margin-top: 1.5%;
+	padding-left: 1%;
+}
+.rightstr1 {
+	text-align: right;
+}
+section {
+	width: 100%;
+	height: 100%;
+	float: left;
+  }
+  
+  div {
+	margin: 5px;
+  }
+  
+  .left {
+	float: left;
+	width: 15%;
+	min-height: 59em;
+	background: rgb(240, 209, 174)
+  }
+
+  .center {
+	width: 68%;
+	min-height: 55em;
+	max-height: 55em;
+	position: absolute;
+	top: 28%;
+	left: 16%;
+	background: lightgray;
+  }
+
+  .center_top {
+	width: 68%;
+	min-height: 3em;
+	position: absolute;
+	left: 16%;
+	background: lightgreen
+  }
+  
+  .right {
+	float: right;
+	width: 15%;
+	min-height: 55em;
+	background: rgb(240, 209, 174)
+  }
+
+  .right_bottom {
+	float: right;
+	clear: right;
+	width: 15%;
+	min-height: 3em;
+	background: lightgreen;
+  }
+
+  .footer {
+	background: skyblue;
+	margin-top: 10px;
+	clear: both;
+	min-height: 170px;
+	min-width: 100%;
+	max-width: 100%;
+	line-height: 130px;
+	text-align: left;
+	border-radius: 0 0 10px 10px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+}
