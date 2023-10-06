@@ -1,0 +1,42 @@
+.container {
+	display: flex;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	margin-right: 20px; /* Add spacing between squares */
+}
+
+.cross {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.horizontal-line,
+.vertical-line {
+	background-color: white;
+	position: absolute;
+}
+
+.horizontal-line {
+	width: 60%;
+	height: 30px;
+	top: 43%; /* Adjusted for spacing from the top */
+}
+
+.vertical-line {
+	width: 30px;
+	height: 60%;
+	left: 43%; /* Adjusted for spacing from the left */
+}
+
+.second-square {
+	transform: translateX(20px); /* Move the second square to the right */
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2x3 Table with Nested Tables</title>
+	<link rel="stylesheet" href="main.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        tr:first-child,
+        tr:first-child td {
+            color: #8F2222;
+            background-color: #228f8f;
+        }
+
+        tr:first-child:hover,
+        tr:first-child:hover td {
+            color: #228f8f;
+            background-color: #8F2222;
+        }
+
+        tr:nth-child(2) td {
+            background-color: #F5F522;
+            color: #2222F5;
+        }
+
+        tr:nth-child(2):hover td {
+            background-color: #2222F5;
+            color: #F5F522;
+        }
+
+        td table tr:nth-child(2) td {
+            color: inherit;
+            background-color: inherit;
+        }
+
+		td table tr:nth-child(2):hover td {
+            color: inherit;
+            background-color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+	<table>
+		<tr>
+			<td>Гуськов</td>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<table>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td>Кирило</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+						<td>&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>Михайлович</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>ІП-11</td>
+			<td>Лаб 2</td>
+			<td>Варіант 2</td>
+		</tr>
+	</table>
+</div>
+
+<div class="container">
+	<div class="square">
+		<div class="cross">
+			<div class="horizontal-line"></div>
+			<div class="vertical-line"></div>
+		</div>
+	</div>
+	<div class="square second-square">
+		<div class="cross">
+			<div class="horizontal-line"></div>
+			<div class="vertical-line"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
