@@ -1,0 +1,13 @@
+.color-changed {
+    color: red; /* Change the text color to red */
+    background-color: yellow; /* Change the background color to yellow (or any other color you prefer) */
+}
+
+#image-container {
+    position: relative;
+}
+
+#enlarge-button, #reduce-button {
+    margin: 5px;
+}
+
