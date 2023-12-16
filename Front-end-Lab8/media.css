@@ -1,0 +1,59 @@
+@media (max-width: 760px) {
+	.block-inside {
+	  margin-bottom: 5%;
+	}
+
+	.block-description {
+	  font-size: 20px;
+	  width: 100%;
+	  margin-left: 0%;
+	}
+
+	header {
+	  padding: 5px; /* Decrease padding for smaller screens */
+	}
+
+	header img {
+	  width: 80px; /* Decrease the logo size */
+	  height: auto;
+	  margin-right: 5px; /* Decrease margin for smaller screens */
+	}
+
+	nav {
+	  flex-direction: column; /* Stack navigation items vertically */
+	  text-align: center;
+	}
+
+	nav a {
+	  margin: 5px; /* Add some margin between navigation items */
+	}
+
+	.header-content {
+	  margin-top: 20%;
+	  font-size: 16px; /* Decrease font size for smaller screens */
+	  width: 90%; /* Adjust the width as needed */
+	}
+
+	.header-button {
+	  margin-top: 20%;
+	  top: 60%; /* Adjust the top value for button placement */
+	  left: 5%; /* Adjust the left value for button placement */
+	  transform: translateX(0);
+	}
+
+	.header-button button {
+	  padding: 10px 20px; /* Decrease button padding */
+	  font-size: 14px; /* Decrease button font size */
+	}
+  }
+
+  @media (min-width: 761px) {
+	.header-content {
+	  font-size: 36px;
+	}
+
+	.header-button {
+	  padding: 20px 40px;
+	  font-size: 18px;
+	}
+  }
