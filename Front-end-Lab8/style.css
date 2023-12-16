@@ -4,7 +4,7 @@ body {
   }
 
   .container {
-	padding: 0; /* Set padding to 0 */
+	padding: 0;
 	margin: 0;
 	width: 100vw;
   }
@@ -48,9 +48,9 @@ body {
 	text-align: left;
 	position: absolute;
 	top: 50%;
-	left: 50%; /* Adjust the left value as needed */
+	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 80%; /* Adjust the width as needed */
+	width: 80%; 
 	font-size: 24px;
 	}
 
@@ -58,8 +58,8 @@ body {
 	text-align: left;
 	position: absolute;
 	top: 70%;
-	left: 10%; /* Adjust the left value to match the text */
-	transform: translateX(0); /* Change to translateX(0) */
+	left: 10%; 
+	transform: translateX(0);
 	border-radius: 60px;
   }
 
@@ -73,11 +73,11 @@ body {
   }
 
   .block {
-	background-color: #fff; /* Set background color to white */
+	background-color: #fff; 
 	padding: 20px;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	text-align: center; /* Center-align text within the block */
+	text-align: center; 
 	width: 100%;
 	height: 100%;
   }
@@ -92,13 +92,13 @@ body {
   }
 
   .block-image {
-	margin-bottom: 0; /* Remove margin-bottom */
+	margin-bottom: 0; 
   }
 
   .block-image img {
-	width: 100%; /* Set the width to 100% */
+	width: 100%;
 	height: auto;
-	margin: 0; /* Remove margin */
+	margin: 0; 
   }
 
   .block-image img {
